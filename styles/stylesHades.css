@@ -1,0 +1,110 @@
+
+body {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+color: #3494E6;
+height: 100%;
+margin: 0px;
+padding: 0px;
+padding-top: 4em;
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #182848); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+html {
+    height: 100%;
+}
+
+li.nav-item, a.btn {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+img {
+    max-width: 100%;    
+}
+
+.greek {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+.icon {
+    font-size: 5em;
+   
+}
+
+#banner .row{
+    font-family: 'Caesar Dressing', cursive;
+    background: black;
+}
+
+#description .container {
+    background: black;
+}
+
+
+.card-block .card-title{
+    color: #3494E6;
+    font-family: 'Caesar Dressing', cursive;
+}
+
+section {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+}
+
+#borderimg {
+    height: 90px;
+    background-image: url("../images/border_hades.png");
+    background-repeat: repeat-x;
+    margin-top:-3px;
+}
+
+ /*==================FANART==============================*/
+
+ .icon-bar .card {
+    background: transparent;
+    border: none;
+  }
+  
+  .icon-bar a {
+      text-decoration: none;
+      color: #3494E6;
+  }
+  
+  .icon-bar .icon-hadesshadow, .icon-hercbust {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  }
+
+  .thumbnail{
+    height: 5rem;
+}
+
+
+/*==================paralax============================*/
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/hadesBG.jpg');
+
+    /* Full height */
+    height: 40rem; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

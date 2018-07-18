@@ -1,0 +1,163 @@
+body {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+color: black;
+height: 100%;
+margin: 0px;
+padding: 0px;
+padding-top: 4em;
+background: #ff7e5f; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff7e5f , #feb47b); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff7e5f , #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.greek {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+.icon {
+    font-size: 5em;
+   
+}
+
+li.nav-item, a.btn {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+
+img {
+    max-width: 100%; 
+}
+
+
+#hades {
+    margin-bottom: -1em;
+    margin-left: -2em;
+}
+
+
+#caption {
+    font-family: 'Caesar Dressing', cursive;
+    text-align: center;
+}
+
+#description .container, #caption .container {
+    background: url('../images/papyrus.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 5px #333333;
+}
+
+#borderimg {
+    height: 90px;
+    background-image: url("../images/bordersm.gif");
+    background-repeat: repeat-x;
+    margin-top:-3px;
+}
+
+section {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+}
+
+blockquote {
+    padding-top: 20%;
+    text-align: left;
+}
+
+
+#main-footer a {
+    background-color: black; 
+    color: white;
+    font-family: 'Caesar Dressing';
+}
+
+#main-footer {
+    padding: 2.5rem 0;
+}
+
+.d-block {
+    height: 30em;
+    margin: auto;
+}
+
+.thumbnail{
+    height: 5rem;
+}
+
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  }
+
+/*====================EPISODES======================*/
+
+
+
+.eplist .card-header, .eplist .card-body {
+    background: url('../images/papyrus.jpg');
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 5px #333333;
+}
+
+
+.eplist a {
+   color: black;
+   background: transparent;
+  
+}
+
+.eplist .hover {
+    background: url('../images/papyrus.jpg');
+}
+
+
+/*==================FANART==============================*/
+
+.icon-bar .card {
+  background: transparent;
+  border: none;
+}
+
+.icon-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-bar .icon-hadesshadow, .icon-hercbust {
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
+}
+
+
+/*===================FANFIC==================================*/
+
+.card-deck .card {
+    box-shadow: 10px 10px 5px #333333;
+    border: transparent;
+}
+
+.card-deck .card-body {
+    background: url('../images/papyrus.jpg');
+}
+
+/*======================CAST========================================*/
+
+#accordion .card {
+    background: url('../images/papyrus.jpg');
+}
+
+#accordion a {
+    color: black;
+}
+
+.table td, .table th {
+    border-top: none;
+}
